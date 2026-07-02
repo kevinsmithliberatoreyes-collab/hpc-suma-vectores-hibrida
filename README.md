@@ -4,14 +4,14 @@ Este repositorio contiene la solución práctica para la **Actividad de la Seman
 
 El objetivo es comparar el rendimiento del paralelismo multinúcleo en CPU (usando **OpenMP**) frente al paralelismo masivo en GPU (usando **NVIDIA CUDA**).
 
-## 🚀 Requisitos Previos
+## Requisitos Previos
 
 Para compilar y ejecutar este proyecto de forma nativa, es necesario contar con:
 * Un compilador compatible con C++ y soporte para **OpenMP** (como `gcc` / `g++`).
 * El entorno **NVIDIA CUDA Toolkit** instalado y configurado.
 * Una tarjeta gráfica NVIDIA compatible.
 
-## 🛠️ Compilación y Ejecución
+## Compilación y Ejecución
 
 Para compilar el código híbrido asegurando que tanto las directivas de OpenMP como el kernel de CUDA se procesen correctamente, ejecuta el siguiente comando en la consola:
 
